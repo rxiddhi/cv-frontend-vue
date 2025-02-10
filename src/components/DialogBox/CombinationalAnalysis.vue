@@ -213,7 +213,7 @@ function createLogicTable() {
     }
 }
 
-function createBooleanPrompt(inputList, outputList, scope = globalScope) {
+function createBooleanPrompt(inputList, outputList) {
     inputListNames.value = inputList || prompt('Enter inputs separated by commas')?.split(',') || []
     outputListNames.value = outputList || prompt('Enter outputs separated by commas')?.split(',') || []
     
